@@ -7,7 +7,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
 }
-.container {
+.A-I-container {
   max-width: 900px;
   margin: 30px auto;
   background: white;
@@ -30,39 +30,53 @@ body {
   background: #ddd;
   object-fit: cover;
 }
-.profile-info h1 {
+.A-I-profile-info h1 {
   font-size: 28px;
   margin-bottom: 5px;
 }
-.profile-info p {
+.A-I-profile-info p {
   color: #666;
   margin-bottom: 8px;
 }
-.section {
+.A-I-section {
   margin-bottom: 25px;
 }
-.section h2 {
+.A-I-section h2 {
   font-size: 20px;
   margin-bottom: 15px;
   color: #333;
   border-left: 4px solid #ff6b6b;
   padding-left: 10px;
 }
-.section p,
-.section ul {
+.A-I-section p,
+.A-I-section ul {
   color: #555;
   line-height: 1.6;
 }
-.section ul {
+.A-I-section ul {
   list-style: none;
   padding-left: 0;
 }
-.section li {
+.A-I-section li {
   padding: 8px 0;
 }
-.section li:before {
+.A-I-section li:before {
   content: "✓ ";
   color: #ff6b6b;
   font-weight: bold;
   margin-right: 8px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkblue;
 }

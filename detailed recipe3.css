@@ -10,7 +10,7 @@ body {
   padding: 20px;
 }
 
-.container {
+.A-I-container {
   max-width: 800px;
   margin: 0 auto;
   background-color: white;
@@ -22,12 +22,14 @@ body {
 h1 {
   color:#ff6b6b ;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .recipe-meta {
   color: #666;
   margin-bottom: 20px;
   font-size: 14px;
+  text-align: center;
 }
 
 .recipe-image {
@@ -42,7 +44,7 @@ h1 {
   color: #999;
 }
 
-.recipe-section {
+.A-I-recipe-section {
   margin-bottom: 25px;
 }
 
@@ -92,5 +94,5 @@ li {
 }
 
 .back-button:hover {
-  background-color: #ff5252;
+  background-color: darkblue;
 }

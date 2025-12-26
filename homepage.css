@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1103518b, #041a7c);
   color: white;
   padding: 1rem 0;
   position: sticky;
@@ -28,7 +28,7 @@ nav {
   padding: 0 2rem;
 }
 
-.logo {
+.A-I-logo {
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -49,39 +49,41 @@ nav a:hover {
   opacity: 0.8;
 }
 
-.hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+.A-I-main {
+  background-image: url(recipe-book-brochure.avif);
+  color: darkblue;
   padding: 6rem 2rem;
   text-align: center;
+  height: 800px;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  font-size: 5rem;
+  margin-bottom: 5rem;
 }
 
 .btn {
   display: inline-block;
-  background: white;
-  color: #667eea;
+  background: darkblue;
+  color: white;
   padding: 0.8rem 2rem;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.3s;
+  margin: 100px auto;
 }
 
 .btn:hover {
   transform: scale(1.05);
 }
 
-.container {
+.A-I-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -91,11 +93,11 @@ nav a:hover {
   padding: 4rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .feature-card {
-  background: #f4f4f4;
+  background: #6e92c2;
   padding: 2rem;
   border-radius: 8px;
   text-align: center;
@@ -109,13 +111,5 @@ nav a:hover {
 
 .feature-card h3 {
   margin: 1rem 0 0.5rem;
-  color: #667eea;
-}
-
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 2rem;
-  margin-top: 4rem;
+  color: #051351;
 }
