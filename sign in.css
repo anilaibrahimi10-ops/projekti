@@ -1,0 +1,66 @@
+/* Main body */
+body {
+  background: linear-gradient(135deg, #1103518b, #041a7c);
+  min-height: 100vh;
+  position: relative;
+}
+.auth-container {
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.auth-header {
+  background: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.auth-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.auth-body {
+  padding: 2rem;
+}
+/* Sign in/up tittle color */
+.nav-tabs .nav-link {
+  border: none;
+  color: darkblue;
+  font-weight: 500;
+}
+/* Tab on sign in/up color */
+.nav-tabs .nav-link.active {
+  background: linear-gradient(135deg, #1103518b, #041a7c);
+  color: white;
+}
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* Button down */
+.btn-primary {
+ background: linear-gradient(135deg, #1103518b, #041a7c)
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-outline-primary {
+  background: linear-gradient(135deg, #1103518b, #041a7c);
+  color: white
+}
+.btn-outline-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+  color: white;
+}
+
